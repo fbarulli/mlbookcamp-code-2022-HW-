@@ -1,0 +1,12 @@
+service: "service.py:svc"
+labels:
+  owner: nonya
+  project: get_a_job
+include:
+- "*.py"
+python:
+  packages:
+    - sklearn
+    - xgboost
+    - pydantic
+  
